@@ -15,12 +15,5 @@ public class Student {
 	public void setStudentName(String name) {
 		studentName = name;
 	}
-/*	public static void main(String[] args) {
-		Student studentLee = new Student();
-		studentLee.studentName= "�̼���";
-		studentLee.address= "����� ���ʱ� ���ʵ�";
-		
-		studentLee.showStudentInfor();
-		
-	}*/
+
 }

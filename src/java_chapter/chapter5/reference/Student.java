@@ -4,11 +4,11 @@ public class Student {
 	int studentID;
 	String studentName;
 	
-	Subject korea;  //�̷������� �ϴ°� �����ڷ�����
+	Subject korea;  //이런식으로 하는게 참조자료형
 	Subject math;
 
-	public Student() { //����ϱ����ؼ� ���� �ؼ� �ȵ� Ŭ���� ���������� �׷���
-		korea = new Subject(); // �����ڿ��� subject �ν��Ͻ� ����!
+	public Student() { //사용하기위해서 선언만 해선 안됨 클래스 생기지않음 그래서
+		korea = new Subject(); //  생성자에서 subject 인스턴스 생성!
 		math = new Subject();
 	}
 
@@ -29,6 +29,6 @@ public class Student {
 	}
 	public void showStudentInfo() {
 		int total = korea.getScore() + math.getScore();
-		System.out.println(studentName +"�л��� ������ "+total+"�� �Դϴ�.");
+		System.out.println(studentName +"학생의 총점은 "+total+"점 입니다.");
 	}
 }

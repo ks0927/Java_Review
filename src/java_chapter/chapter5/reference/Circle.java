@@ -9,7 +9,7 @@ public class Circle {
 		point = new Point();
 	}
 	public void PrintCircle() {
-		System.out.println("������: "+radius);
+		System.out.println("반지름: "+radius);
 		System.out.println("x: "+point.x+" y: "+point.y);
 	}
 	

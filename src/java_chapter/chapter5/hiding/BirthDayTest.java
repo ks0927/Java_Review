@@ -4,15 +4,15 @@ class BirthDay{
 	private int day;
 	private int month;
 	private int year;
-	//���������� 4���� public, private,default�˾Ƽ� Ŭ������, ���?�����ȹ��
+	//접근제어자 4가지 public, private,default, 상속
 	
 	public int getDay() {
 		return day;
 	}
 	public void setDay(int day) {
-		if(month ==2) {
+		if(month ==2) {           //
 			if(day<1 || day >28) {
-				System.out.println("��¥ �����Դϴ�.");
+				System.out.println("날짜 오류입니다.");
 			}
 		}
 		else {
